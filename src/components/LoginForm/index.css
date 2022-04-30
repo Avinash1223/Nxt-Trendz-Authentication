@@ -1,0 +1,80 @@
+/* Write your CSS code here */
+.login-form-container {
+  display: flex;
+  padding: 100px;
+}
+
+.website-login-logo {
+  width: 600px;
+}
+
+.form-logo {
+  height: 40px;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  margin-left: 300px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 100px;
+}
+
+.user-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.error {
+  color: red;
+  font-size: 18px;
+}
+
+.password-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.password-label {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: roboto;
+  color: #64748b;
+}
+
+.user-label {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: roboto;
+  color: #64748b;
+}
+
+.user-field {
+  background-color: #e2e8f0;
+  width: 100%;
+  border-style: none;
+  height: 30px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  padding-left: 10px;
+}
+
+.password-field {
+  background-color: #e2e8f0;
+  width: 100%;
+  border-style: none;
+  height: 30px;
+  border-radius: 4px;
+  padding-left: 10px;
+}
+
+.login {
+  width: 100%;
+  background-color: #0b69ff;
+  border-radius: 8px;
+  color: #ffffff;
+  padding-left: 10px;
+  height: 30px;
+  border-style: none;
+  margin-top: 10px;
+}

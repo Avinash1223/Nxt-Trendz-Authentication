@@ -1,0 +1,35 @@
+/* Write your CSS code here */
+
+.home-container {
+  margin: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading {
+  font-size: 44px;
+}
+
+.home-description {
+  font-size: 20px;
+  font-family: roboto;
+}
+
+.img-container {
+  display: flex;
+  align-self: flex-end;
+}
+
+.logo {
+  width: 500px;
+}
+
+.shop-now-button {
+  background-color: #0b69ff;
+  border-radius: 8px;
+  color: #ffffff;
+  padding-left: 10px;
+  height: 30px;
+  border-style: none;
+  margin-top: 10px;
+}
