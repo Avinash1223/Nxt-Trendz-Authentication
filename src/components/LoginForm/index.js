@@ -41,7 +41,7 @@ class LoginFrom extends Component {
     // console.log(response)
     const data = await response.json()
     // console.log(data)
-    if (response.data === true) {
+    if (response.ok === true) {
       this.onSubmitSuccess()
     } else {
       this.onSubmitFailure(data.error_msg)
